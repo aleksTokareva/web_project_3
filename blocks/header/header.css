@@ -1,0 +1,13 @@
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 380px) {
+  .header {
+    padding-top: 20px;
+  }
+}
