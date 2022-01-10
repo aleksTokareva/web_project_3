@@ -7,13 +7,15 @@
   width: 100%;
   max-width: 785px;
 }
-@media screen and (min-width: 544px) and (max-width: 1024px) {
+@media screen and (min-width: 720px) and (max-width: 1250px) {
   .intro {
     margin-top: 88px;
+    width: 720px;
   }
 }
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 720px) {
   .intro {
     margin-top: 64px;
+    width: 288px;
   }
 }
