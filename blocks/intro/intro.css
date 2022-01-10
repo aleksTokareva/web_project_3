@@ -3,18 +3,16 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  margin-left:148px;
-  margin-right:347px;
   margin-top: 92px;
   width: 100%;
-  max-width: 984px;
+  max-width: 785px;
 }
-@media screen and (min-width: 400px) and (max-width: 1250px) {
+@media screen and (min-width: 544px) and (max-width: 1024px) {
   .intro {
     margin-top: 88px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 544px) {
   .intro {
     margin-top: 64px;
   }
