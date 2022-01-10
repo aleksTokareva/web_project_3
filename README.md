@@ -1,3 +1,6 @@
+This project was built by Aleksandra Tokareva.
+Link to repo: https://github.com/aleksTokareva/web_project_3
+
 Technologies
 HTML5
 CSS
