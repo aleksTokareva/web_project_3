@@ -4,17 +4,17 @@
   line-height: 163%;
   margin: 0;
   padding: 0;
-  max-width: 720px;
+  max-width: 690px;
 }
-@media screen and (min-width: 768px) and (max-width: 1250px) {
+@media screen and (min-width: 350px) and (max-width: 1250px) {
   .intro__text {
-    width: 720px;
+    max-width: 720px;
     margin: 32px 24px 0;
   }
 }
 @media screen and (max-width: 350px) {
   .intro__text {
-    width: 288px;
+    max-width: 288px;
     margin: 32px 16px 0;
   }
 }

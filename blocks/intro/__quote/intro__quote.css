@@ -5,18 +5,18 @@
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
-  max-width: 720px;
+  max-width: 690px;
 }
-@media screen and (min-width: 768px) and (max-width: 1250px) {
+@media screen and (min-width: 350px) and (max-width: 1250px) {
   .intro__quote {
-    width: 720px;
+    max-width: 720px;
     margin: 40px 24px 0;
   }
 }
 @media screen and (max-width: 350px) {
   .intro__quote {
     line-height: 125%;
-    width: 288px;
+    max-width: 288px;
     margin: 40px 16px 0;
   }
 }

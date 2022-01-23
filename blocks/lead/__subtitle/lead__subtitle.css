@@ -5,10 +5,10 @@
   font-style:normal;
   text-align: center;
   padding: 0;
-  margin: 32px 0 64px;
+  margin: 32px auto 64px;
   max-width: 720px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .lead__subtitle {
     margin: 32px auto 36px;
   }
