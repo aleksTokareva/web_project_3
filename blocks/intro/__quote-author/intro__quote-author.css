@@ -5,8 +5,7 @@
   margin: 0;
   padding: 0;
   margin-bottom: 32px;
-  width: 90%;
-  max-width: 690px;
+  max-width: 720px;
   text-align: right;
 }
 @media screen and (min-width: 350px) and (max-width: 1250px) {
