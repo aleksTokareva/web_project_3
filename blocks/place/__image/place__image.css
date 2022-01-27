@@ -2,16 +2,16 @@
   grid-area: image;
   margin: 0;
   padding: 0;
-  width: 460px;
+  max-width: 984px;
   object-fit: contain;
 }
 
-@media screen and (min-width: 768px) and (max-width: 984px) {
+@media screen and (min-width: 400px) and (max-width: 984px) {
   .place__image {
-    max-width: 340px;
+    max-width: 768px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   .place__image {
     margin-bottom: 30px;
     max-width: 320px;
