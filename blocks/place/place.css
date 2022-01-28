@@ -11,6 +11,7 @@
   grid-gap: 48px 40px;
   max-width: 984px;
   margin-top: 80px;
+  width: 100%;
 }
 
 @media screen and (min-width: 750px) and (max-width: 800px) {
