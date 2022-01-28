@@ -13,6 +13,10 @@
   margin-top: 80px;
   width: 100%;
 }
+.place:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
 
 @media screen and (min-width: 750px) and (max-width: 800px) {
   .place {
