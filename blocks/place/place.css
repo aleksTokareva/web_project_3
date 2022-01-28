@@ -27,7 +27,7 @@
     padding-top: 0;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 540px) {
   .place {
     grid-template-columns: 320px;
     grid-gap: 0;
