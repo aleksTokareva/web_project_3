@@ -12,9 +12,6 @@
   max-width: 984px;
   margin-top: 80px;
 }
-.place:first-child {
-  margin: 0;
-}
 
 @media screen and (min-width: 750px) and (max-width: 800px) {
   .place {
