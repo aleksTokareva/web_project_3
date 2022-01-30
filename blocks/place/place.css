@@ -18,7 +18,7 @@
   padding-top: 0;
 }
 
-@media screen and (min-width: 750px) and (max-width: 800px) {
+@media screen and (min-width: 750px) and (max-width: 950px) {
   .place {
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
@@ -31,7 +31,7 @@
     padding-top: 0;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 750px) {
   .place {
     grid-template-columns: 320px;
     grid-gap: 0;
