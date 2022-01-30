@@ -13,9 +13,3 @@
     line-height: 16px;
   }
 }
-
-@media screen and (max-width: 340px) {
-  .cover__subtitle {
-    margin-bottom: 16px;
-  }
-}
