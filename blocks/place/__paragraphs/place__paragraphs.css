@@ -1,18 +1,20 @@
 .place__paragraphs {
-    grid-area: paragraphs;
-    margin: 0;
-    padding: 0;
+  grid-area: paragraphs;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .place__paragraphs {
+    width: 288px;
+    padding: 0 16px;
+    margin: 0 auto;
   }
-  @media screen and (min-width: 750px) and (max-width: 820px) {
-    .place__paragraphs {
-      width: 352px;
-    }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraphs {
+    margin: 0 auto;
+    width: calc(100%- 32px);
   }
-  
-  @media screen and (max-width: 750px) {
-    .place__paragraphs {
-      width: 288px;
-      padding: 32px 16px 30px 16px;
-      margin: 0 auto;
-    }
-  }
+}

@@ -3,6 +3,7 @@
   margin-top: 32px;
   align-self: center;
   text-align: center;
+  width: 137px;
 }
 
 @media screen and (max-width: 750px) {
@@ -11,8 +12,3 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width:1280px){
-  .cover__button {
-    width: 137px;
-  }
-}

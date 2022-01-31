@@ -13,3 +13,9 @@
     line-height: 35px;
   }
 }
+
+@media screen and (min-width: 320px) {
+  .cover__title {
+   margin-bottom: 16px;
+  }
+}
