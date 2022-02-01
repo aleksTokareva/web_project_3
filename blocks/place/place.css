@@ -50,3 +50,9 @@
     padding-top: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .places .place ~ .place {
+    margin-top: 72px;
+  }
+}
