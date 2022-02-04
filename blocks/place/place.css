@@ -24,6 +24,7 @@
     grid-gap: 48px 28px;
     margin: 0 auto;
     max-width: 720px;
+    margin-top: 72px;
   }
   .place:first-child {
     margin-top: 0;
@@ -40,7 +41,7 @@
       "image"
       "paragraphs"
       "button";
-    margin-top: 48px;
+    margin-top: 72px;
     padding: 0;
     max-width: 320px;
     grid-row-gap: 30px;
@@ -48,11 +49,5 @@
   .place:first-child {
     margin-top: 0;
     padding-top: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .places .place ~ .place {
-    margin-top: 72px;
   }
 }
